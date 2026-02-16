@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Video Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    input, select, button {
+      width: 90%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: none;
+      font-size: 16px;
+    }
+    button {
+      background: #00c6ff;
+      color: black;
+      font-weight: bold;
+    }
+    .box {
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>🎬 Automatic AI Video Generator</h2>
+
+  <div class="box">
+
+    <input type="text" placeholder="Enter Video Topic">
+
+    <select>
+      <option>30 Seconds</option>
+      <option>1 Minute</option>
+      <option>5 Minutes</option>
+      <option>10 Minutes</option>
+      <option>15 Minutes</option>
+    </select>
+
+    <select>
+      <option>Motivational</option>
+      <option>Facts / GK</option>
+      <option>Storytelling</option>
+    </select>
+
+    <select>
+      <option>9:16 (Shorts)</option>
+      <option>16:9 (YouTube)</option>
+    </select>
+
+    <select>
+      <option>Show Text on Screen</option>
+      <option>No Text</option>
+    </select>
+
+    <button>Generate Video</button>
+
+    <button>Download Video</button>
+
+  </div>
+
+</body>
+</html>
